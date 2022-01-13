@@ -1,0 +1,126 @@
+
+* {
+    box-sizing: border-box;
+}
+:root {
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+body {
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(216, 216, 216);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    
+}
+.logo {
+    font-size: 48px;
+    color: #e50914;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    margin-right: 20px;
+}
+ul {
+    margin-left: 20px;
+}
+header .listaum {
+    display: inline;
+    font-size: 19px;
+    margin-left: 8px;
+    color: rgb(139, 130, 130);
+    transition: 1s;
+}
+
+header .listaum:hover {
+    color: white;
+    font-size: 19px;
+
+}
+.filmeprincipal {
+    background:linear-gradient(rgb(14, 14, 14,0.5),rgb(14, 14, 14,0.5)50%), url('/img/peak\ blinders.jpg');
+    height: 550px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    transition-delay: 1s;
+    
+    
+    
+}
+
+.titulo {
+    font-size: 50px;
+    transition: 1s;
+}
+.titulo:hover {
+    color: white;
+    font-size: 51px;
+}
+.logo {
+    margin-right: 15px;
+}
+.p1 {
+    width: 58%;
+    margin: 5px 0 18px 0;
+}
+.p1:hover {
+    color: white;
+}
+.sinopse {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px 0 13px 0;
+}
+.sinopse:hover {
+    color: white;
+}
+.relevancia {
+    display: flex;
+    align-items: center;
+}
+.container2 {
+    margin-left: 100px;
+}
+.botao {
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgba(49, 49, 49, 0.4);
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    transition: 1s;
+    margin-top: 30px;
+}
+.botao:hover {
+    background-color: white;
+    color: var(--preto);
+}
+#but {
+    margin-left: 15px;
+}
+.boxfil {
+    width: 50%;
+    height: 50%;
+}
+
+.item:hover {
+    border: solid white;
+
+}
+.leg {
+    font-size: 22px;
+    margin-left: 160px;
+    font-weight: bolder;
+    background: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 1s;
+}
